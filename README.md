@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is about building a website that explains my values, skills, and projects.
+This project is about building a website that explains my values, skills, and projects. It is currently hosted using the GitHub Pages feature.
 
 
 ### Built With
@@ -62,36 +62,9 @@ This project is about building a website that explains my values, skills, and pr
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To view the current prototype of my personalize website, click this direct URL link --> [https://ecruz950.github.io/EdgarCruz-Website/](https://ecruz950.github.io/EdgarCruz-Website/)
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+If you would like to help contribute and make improvements to my website, feel free to clone the repository onto your local machine and make a pull request with your changes.
 
 <!-- CONTACT -->
 ## Contact

@@ -46,7 +46,7 @@ body {
 /* HERO SECTION STYLES */
 section#hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("img/Chi_Pic.png");
+    url("img-assets/Chi_Pic.png");
   background-size: cover;
   background-position: center;
   width: 100%;

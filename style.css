@@ -9,10 +9,10 @@ body {
   background-color: #326771 !important;
 }
 
-.scroll-top .navbar {
+/* .scroll-top .navbar { */
   /* !important gives the style higher specificity so that it is applied */
   /* background-color: transparent !important; */
-}
+/* } */
 
 .navbar a {
   color: #fefae0;
@@ -26,15 +26,18 @@ body {
 }
 
 .navbar i:hover {
-  color: #275058;
+  /* color: #275058; */
+  color: #142a2e;
 }
 
 .nav-link:hover {
-  color: #275058;
+  /* color: #275058; */
+  color: #142a2e;
 }
 
 .nav-link.active {
-  color: #275058 !important; /* Example: Red color */
+  /* color: #275058 !important;  */
+  color: #142a2e;
 }
 
 /* Set the border color to the desired color */

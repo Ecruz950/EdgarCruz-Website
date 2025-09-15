@@ -15,14 +15,16 @@ body {
 /* } */
 
 .navbar a {
-  color: #fefae0;
+  /* color: #fefae0; */
+  color: white;
   font-weight: 650;
   text-align: right;
   letter-spacing: 1px;
 }
 
 .navbar i {
-  color: #fefae0;
+  /* color: #fefae0; */
+  color: white;
 }
 
 .navbar i:hover {
@@ -43,7 +45,8 @@ body {
 /* Set the border color to the desired color */
 .navbar-toggler.custom-toggler {
   border-color: #326771;
-  background-color: #fefae0;
+  /* background-color: #fefae0; */
+  background-color: white;
 }
 
 /* HERO SECTION STYLES */
@@ -54,7 +57,8 @@ section#hero-section {
   background-position: center;
   width: 100%;
   padding: 20%;
-  color: #326771;
+  /* color: #326771; */
+  color: white;
   text-align: center;
 }
 section#hero-section img {

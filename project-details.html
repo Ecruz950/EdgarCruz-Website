@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <title>Project Details</title>
+    <!-- Bootstrap CSS and Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="index_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <!-- "-md" is for medium screens so it will apply the hamburger menu stlye on medium screens. Otherwise, the navabar will display the elements horizontally -->
+    <nav class="navbar navbar-expand-md fixed-top bg-primary">
+        <div class="container">
+            <a href="#top" class="navbar-brand">
+                <i class="bi bi-house-door-fill"></i>
+            </a>
+            <!-- hamburger menu appears when screen collapses -->
+            <button
+                    class="navbar-toggler custom-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nav-collapse"
+            >
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+            <div id="nav-collapse" class="collapse navbar-collapse">
+                <!-- Can move navbar elements to right hand side by adding ms-auto which sets margin style to auto -->
+                <div class="navbar-nav ms-auto">
+                    <a href="#mission-target" class="nav-link"
+                    >Mission</a>
+                    <a href="#project-target" class="nav-link"
+                    >Projects</a>
+                    <a href="#skills-target" class="nav-link">Skills</a>
+                    <a href="#contact-target" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  PROJECT DETIALS SECTION  -->
+    <section>
+
+    </section>
+    <!-- FOOTER SECTION -->
+    <section id="footer-section">
+        <p>&copy; Edgar Cruz 2025</p>
+    </section>
+    <!-- Bootstrap JS (for interactive components like the navbar toggler) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

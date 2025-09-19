@@ -94,15 +94,23 @@ section#project-section {
   font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
-section#project-section img {
+.project-card {
+  background-color: #1d3b41;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
   height: 70px;
   margin: 15px 0;
   transition-duration: 0.3s;
-}
-
-section#project-section img:hover {
-  transition-duration: 0.3s;
-  transform: scale(1.1);
 }
 
 /* MISSION SECTION STYLES */
@@ -145,6 +153,26 @@ section#skills-section img {
 section#skills-section img:hover {
   transition-duration: 0.3s;
   transform: scale(1.1);
+}
+
+/* CAROUSEL STYLES FOR CERTIFICATIONS */
+#certifications-carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#certifications-carousel .carousel-item img {
+  height: 400px;
+  object-fit: contain;
+  background-color: white;
+}
+
+.carousel-control-prev {
+  left: -20px; /* Move left control further left */
+}
+
+.carousel-control-next {
+  right: -20px; /* Move right control further right */
 }
 
 /* CONTACT SECTION STYLES*/
@@ -195,24 +223,4 @@ section#project-section h1 {
 #project-target {
   position: relative;
   top: -50px;
-}
-
-/* CAROUSEL STYLES */
-#certifications-carousel {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#certifications-carousel .carousel-item img {
-  height: 400px;
-  object-fit: contain;
-  background-color: white;
-}
-
-.carousel-control-prev {
-  left: -20px; /* Move left control further left */
-}
-
-.carousel-control-next {
-  right: -20px; /* Move right control further right */
 }

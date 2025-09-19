@@ -6,7 +6,7 @@ body {
 
 /* NAVBAR STYLES */
 .navbar {
-  background-color: #326771 !important;
+  background-color: #275058 !important;
 }
 
 /* .scroll-top .navbar { */
@@ -152,12 +152,12 @@ section#contact-section {
   background-color: #142a2e;
   color: white;
 }
-
+/* Styles for the contact icons */
 section#contact-section i {
-  font-size: 8vw;
+  font-size: 5.5vw;
 }
 
-#contact-logo:hover {
+section#contact-section i:hover {
   color: #326771;
 }
 
@@ -195,4 +195,24 @@ section#project-section h1 {
 #project-target {
   position: relative;
   top: -50px;
+}
+
+/* CAROUSEL STYLES */
+#certifications-carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#certifications-carousel .carousel-item img {
+  height: 400px;
+  object-fit: contain;
+  background-color: white;
+}
+
+.carousel-control-prev {
+  left: -20px; /* Move left control further left */
+}
+
+.carousel-control-next {
+  right: -20px; /* Move right control further right */
 }

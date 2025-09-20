@@ -180,12 +180,20 @@ section#contact-section {
   background-color: #142a2e;
   color: white;
 }
+
 /* Styles for the contact icons */
-section#contact-section i {
+.contact-icon {
   font-size: 5.5vw;
+  transition-duration: 0.3s;
 }
 
-section#contact-section i:hover {
+@media (max-width: 576px) {
+  .contact-icon {
+    font-size: 50px;
+  }
+}
+
+.contact-icon:hover {
   color: #326771;
 }
 

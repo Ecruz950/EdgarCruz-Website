@@ -9,13 +9,7 @@ body {
   background-color: #275058 !important;
 }
 
-/* .scroll-top .navbar { */
-  /* !important gives the style higher specificity so that it is applied */
-  /* background-color: transparent !important; */
-/* } */
-
 .navbar a {
-  /* color: #fefae0; */
   color: white;
   font-weight: 650;
   text-align: right;
@@ -23,32 +17,26 @@ body {
 }
 
 .navbar i {
-  /* color: #fefae0; */
   color: white;
 }
 
 .navbar i:hover {
-  /* color: #275058; */
   color: #142a2e;
 }
 
 .nav-link:hover {
-  /* color: #275058; */
   color: #142a2e;
 }
 
 .nav-link.active {
-  /* color: #275058 !important;  */
   color: #142a2e;
 }
 
 /* Set the border color to the desired color */
 .navbar-toggler.custom-toggler {
   border-color: #326771;
-  /* background-color: #fefae0; */
   background-color: white;
 }
-
 
 /* FOOTER SECTION STYLING */
 section#footer-section {
